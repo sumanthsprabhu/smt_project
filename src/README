@@ -1,0 +1,28 @@
+REQUIREMENTS:
+============
+CBMC 4.5
+Z3
+
+
+COMPILATION:
+===========
+0> Download CBMC 4.5 and Z3 source code and compile them.
+1> Modify the variables present in ./config.inc file to point to top level directory of CBMC 4.5 and Z3.
+2> Run make
+3> make will create the binary check_wp in check_wp/ directory. 
+
+
+ACKNOWLEDGEMENT
+===============
+ 
+Following files are originally from Impara 0.2, modified to suite our need:
+./Makefile
+./config.inc
+./check_wp/Makefile
+./check_wp/parseoptions.h  (corresponding Impara 0.2 file is impara_parseoptions.h
+./check_wp/parseoptions.cpp (corresponding Impara 0.2 file is impara_parseoptions.cpp)
+
+We are using CBMC's APIs for parsing of source code.
+
+We are using Z3 as backend decision procedure.
+
