@@ -22,7 +22,7 @@ Following files are originally from Impara 0.2, modified to suite our need:
 ./check_wp/parseoptions.h  (corresponding Impara 0.2 file is impara_parseoptions.h
 ./check_wp/parseoptions.cpp (corresponding Impara 0.2 file is impara_parseoptions.cpp)
 
-We are using CBMC's APIs for parsing of source code.
+We are using CBMC's(http://www.cprover.org/svn/cbmc/releases/cbmc-4.5/) APIs for parsing of source code.
 
-We are using Z3 as backend decision procedure.
+We are using Z3(https://github.com/Z3Prover/z3) as backend decision procedure.
 
