@@ -1,9 +1,10 @@
-LICENSE_IMPARA is applicable to original source code of Impara 0.2 present in following files:
+Following files are originally from Impara 0.2 which have been modified for as per our need:
 ./Makefile
 ./config.inc
 ./check_wp/Makefile
 ./check_wp/parseoptions.h  (corresponding Impara 0.2 file is impara_parseoptions.h
 ./check_wp/parseoptions.cpp (corresponding Impara 0.2 file is impara_parseoptions.cpp)
+LICENSE_IMPARA is applicable to original source code present in these files.
 
 LICENSE_CBMC is applicable to usage of CBMC's APIs.
 
